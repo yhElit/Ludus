@@ -1,0 +1,41 @@
+1. What is the difference between git and github? 
+    Git is a version control system that you use on your local computer
+    GitHub is a web-based platform that uses Git to help you manage your code in the cloud and collaborate with other people
+
+2. Name 3 benefits of a version control system: 
+    History and Versioning, Collaboration, Backup and Recovery
+
+3. Name 3 alternatives to git:
+    Mercurial, SVN (Subversion), Perforce
+
+4. Name 2 differences between git and other version control systems:
+    Distributed Version Control:
+        Git is a distributed version control system, while other systems, like SVN and Perforce, are centralized
+        In Git, every developer has a complete copy of the repository on their local machine, which allows them to work offline and create and merge branches locally
+        In centralized systems, developers must be connected to a central server to contribute to the codebase
+   
+   Branching and Merging:
+        Git has a powerful branching and merging model that allows developers to create and manage branches quickly and easily
+        This allows for experimentation and collaboration without affecting the main codebase
+        Other version control systems may have more limited branching and merging capabilities, making it more difficult to work with multiple branches and to merge changes between branches
+
+5. Name known issues related to game engines (Unreal, Unity) and version control systems:
+    Large Binary Files: 
+        Game engines often generate large binary files
+        These files can be difficult to manage with version control systems
+        Version control systems are designed to work with text-based source code files
+        Large binary files can cause slow performance, repository bloat, and issues with merge conflicts
+
+    Meta Files:
+        Game engines often use meta files to store additional information about assets, etc.
+        These meta files  are frequently updated and can cause conflicts when merging changes from multiple developers
+   
+    Plugin Management:
+        Managing plugins with version control systems can be challenging because plugins are often version-dependent and may have their own repository structures
+
+    Ignoring Generated Files:
+        A lot of files are generated during the development process, such as intermediate files, log files, and build artifacts
+        It can be difficult to identify which files should be ignored and which ones should be versioned
+    
+    Collaborating with Large Teams:
+        It can be challenging to manage merge conflicts with large number of files and ensure that everyone is working on the same version of the codebase 
