@@ -1,0 +1,16 @@
+1. What is the difference between git submodules and git subtrees?
+    - submodules are more suited for managing dependencies that are developed independently with thei own version control
+    - subtrees are more suited for incorporating closely related repositories into a project
+
+2. What is a build system in C++? Name 3 build systems:
+    - is a set of tools and processes used to compile source code, link libraries and dependencies, and produce executable files or shared libraries
+    - can also handle tasks such as generating documentation, running tests, and packaging the final product
+
+    3 build systems: CMake, GNU Make, Bazel
+
+
+3. What is a package manager in C++? Name 3 package manager
+    - is a tool that helps manage dependencies, libraries, and other packages needed for a C++ project
+    - ensures that all the necessary components for a project are installed correctly and up-to-date, which can help reduce errors and streamline development
+
+    3 package manager: Conan, vcpkg, Hunter
