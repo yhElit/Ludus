@@ -27,9 +27,15 @@
     <ClInclude Include="src\Ludus\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Ludus\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Ludus\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ludus\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
