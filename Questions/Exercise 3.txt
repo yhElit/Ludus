@@ -1,0 +1,39 @@
+1. What is the difference between a dynamic linked library and a static library?
+
+    Static Libraries:
+        - Collection of object code that is linked directly into a program at compile time
+        - Code is copied into the executable file
+        - Code from the library is included every time the program runs
+        - Used when code is expected to remain relatively stable and a self-contained executable file is desirable
+
+    Dynamic Linked Libraries:
+        - Library that is linked to a program at runtime
+        - Loaded into memory when the program starts
+        - Symbols are resolved when needed by the program
+        - Multiple programs can use the same DLL
+        - Changes to the DLL will be reflected in all programs that use it
+        - Used when library code may change frequently or when memory usage is a concern
+
+
+2. Describe a logging system with your own words:
+    - a logging system is a software component that records events and messages that occur during the execution of a program or system
+    - used to provide visibility into the behavior of a system, identify errors and problems, and troubleshoot issues
+
+3. What is a Design Pattern?
+    - A design pattern is a reusable solution to a commonly occurring problem in software design
+    - It is not a complete solution, but rather a template or guide for solving a problem
+    - Design patterns are usually described at a high level of abstraction and can be applied to many different situations
+
+4. Name and describe 2 Design Patterns (except façade or adapter):
+
+    Observer Pattern:
+        - Allows objects to be notified when the state of another object changes
+        - Defines a one-to-many relationship between objects, where changes to one object are broadcast to all its observers
+        - can be used to decouple the subject (the object being observed) from its observers, allowing for more flexible and reusable code
+        - Often used in user interface programming and event-driven systems
+   
+    Strategy Pattern:
+        - Defines a family of algorithms, encapsulates each one, and makes them interchangeable at runtime
+        - Allows algorithms to be selected and swapped out without affecting the client code that uses them
+        - Can improve code flexibility and modularity by separating the algorithm implementation from the rest of the code
+        - Useful when there are multiple ways to accomplish a task, or when different strategies need to be applied in different situations.

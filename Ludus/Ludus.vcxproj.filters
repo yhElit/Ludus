@@ -4,6 +4,9 @@
     <Filter Include="Ludus">
       <UniqueIdentifier>{B227A00D-1E3C-C8BE-E7BD-6B1E5391C4EF}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Ludus\Events">
+      <UniqueIdentifier>{56F74992-425A-D936-EBDF-11EDD721A5B9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Ludus.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Ludus\EntryPoint.h">
       <Filter>Ludus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ludus\Events\ApplicationEvent.h">
+      <Filter>Ludus\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ludus\Events\Event.h">
+      <Filter>Ludus\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ludus\Events\KeyEvent.h">
+      <Filter>Ludus\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ludus\Events\MouseEvent.h">
+      <Filter>Ludus\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Ludus\Log.h">
       <Filter>Ludus</Filter>

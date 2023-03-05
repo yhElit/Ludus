@@ -8,6 +8,7 @@ int main(int argc, char** argv)
 {
 	Ludus::Log::Init();
 	Ludus_CORE_WARN("Initialized Log!");
+	Ludus_CORE_ERROR("Initialized Log!");
 	Ludus_INFO("Initialized Log!");
 
 	auto app = Ludus::CreateApplication();

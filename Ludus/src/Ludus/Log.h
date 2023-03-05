@@ -3,6 +3,7 @@
 
 #include "Core.h"
 #include "spdlog/spdlog.h"
+#include "spdlog/fmt/ostr.h"
 
 namespace Ludus
 {
@@ -31,7 +32,7 @@ namespace Ludus
 
 // Client log macros
 #define Ludus_ERROR(...)		::Ludus::Log::GetClientLogger()->error(__VA_ARGS__)
-#define Ludus_WARN(...)		::Ludus::Log::GetClientLogger()->warn(__VA_ARGS__)
-#define Ludus_INFO(...)		::Ludus::Log::GetClientLogger()->info(__VA_ARGS__)
+#define Ludus_WARN(...)			::Ludus::Log::GetClientLogger()->warn(__VA_ARGS__)
+#define Ludus_INFO(...)			::Ludus::Log::GetClientLogger()->info(__VA_ARGS__)
 #define Ludus_TRACE(...)		::Ludus::Log::GetClientLogger()->trace(__VA_ARGS__)
 #define Ludus_FATAL(...)		::Ludus::Log::GetClientLogger()->fatal(__VA_ARGS__)
