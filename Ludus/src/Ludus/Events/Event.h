@@ -1,9 +1,6 @@
 #pragma once
-
+#include "ldpch.h"
 #include "Ludus/Core.h"
-
-#include <string>
-#include <functional>
 
 namespace Ludus {
 

@@ -1,0 +1,32 @@
+1. What is a precompiled header? Name pros and cons:
+    Allows frequently used headers to be preprocessed and compiled into a single file, which can then be reused across multiple source files
+
+    Pros:
+        Faster compilation times
+        Improved build times
+        Easier to maintain
+
+    Cons:
+        Increased memory usage
+        Compatibility issues
+        Debugging issues
+        
+2. Describe the layer of abstraction with your own words:
+    In software engineering, abstraction is the process of simplifying complex systems by hiding unnecessary details and exposing only the essential features.
+    A layer of abstraction is a level of indirection between two components in a system that allows them to interact without needing to understand the details of each other's implementation
+
+3. Name the SOLID principles and describe them briefly:
+    - Single Responsibility Principle (SRP): 
+        A class should only be focused on responsibility
+
+    - Open/Closed Principle (OCP):
+        You should be able to add new functionality without changing the existing code (classes, modules, functions, etc.) 
+    
+    - Liskov Substitution Principle (LSP):
+        The behavior of the superclass should be preserved when using a subclass
+
+    - Interface Segregation Principle (ISP):
+        An interface should be focused on the needs of the client and it should only contain methods that are relevant to that client
+    
+    - Dependency Inversion Principle (DIP):
+        The details of implementation should be hidden behind abstractions, which can be easily changed without affecting the high-level modules

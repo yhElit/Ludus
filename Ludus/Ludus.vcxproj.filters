@@ -7,6 +7,12 @@
     <Filter Include="Ludus\Events">
       <UniqueIdentifier>{56F74992-425A-D936-EBDF-11EDD721A5B9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Ludus\Platform">
+      <UniqueIdentifier>{462CC368-32FA-B66E-1B8E-279507FB92D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ludus\Platform\Windows">
+      <UniqueIdentifier>{80BC433F-6CB6-6C91-5523-03A241BCD2FD}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Ludus.h" />
@@ -34,6 +40,13 @@
     <ClInclude Include="src\Ludus\Log.h">
       <Filter>Ludus</Filter>
     </ClInclude>
+    <ClInclude Include="src\Ludus\Platform\Windows\WindowsWindow.h">
+      <Filter>Ludus\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ludus\Window.h">
+      <Filter>Ludus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ldpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Ludus\Application.cpp">
@@ -42,5 +55,9 @@
     <ClCompile Include="src\Ludus\Log.cpp">
       <Filter>Ludus</Filter>
     </ClCompile>
+    <ClCompile Include="src\Ludus\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Ludus\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ldpch.cpp" />
   </ItemGroup>
 </Project>
