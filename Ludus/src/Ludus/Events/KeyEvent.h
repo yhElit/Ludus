@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Ludus {
 
 	class LUDUS_API KeyEvent : public Event

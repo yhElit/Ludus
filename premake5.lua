@@ -18,6 +18,9 @@ workspace "Ludus"
 		targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 		objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+		pchheader "ldpch.h"
+		pchsource "Ludus/src/ldpch.cpp"
+
 		files
 		{
 			"%{prj.name}/src/**.h",

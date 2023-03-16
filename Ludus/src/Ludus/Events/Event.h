@@ -2,8 +2,6 @@
 
 #include "Ludus/Core.h"
 
-#include <string>
-#include <functional>
 
 namespace Ludus {
 
