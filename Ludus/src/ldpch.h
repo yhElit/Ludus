@@ -13,6 +13,8 @@
 #include <unordered_map>
 #include <unordered_set>
 
+#include "Ludus/Log.h"
+
 #ifdef LUDUS_PlATFORM_WINDOWS
 	#include <Windows.h>
 #endif // LUDUS_PlATFORM_WINDOWS
